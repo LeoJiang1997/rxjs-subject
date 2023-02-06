@@ -23,7 +23,7 @@ subject$.subscribe(subject => {
 });
 
 subject$.subscribe(subject => {
-  // console.log('订阅者B' + subject);
+  console.log('订阅者B' + subject);
 });
 
 // subject$.next(Math.random());
