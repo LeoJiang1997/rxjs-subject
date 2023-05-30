@@ -6,8 +6,6 @@
     "cm": "git-cz"
   },
   "dependencies": {
-    "@commitlint/cli": "^17.6.3",
-    "@commitlint/config-angular": "^17.6.3",
     "rxjs": "^7.5.5",
     "standard-version": "^9.5.0"
   },
