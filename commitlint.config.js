@@ -32,10 +32,17 @@ function getScopesRule() {
   }
 }
 
+// module.exports = {
+//   extends: ['@commitlint/config-angular'],
+//   rules: {
+//     'type-enum': [2, 'always', types],
+//     'scope-enum': getScopesRule,
+//   },
+// };
 module.exports = {
-  extends: ['@commitlint/config-angular'],
+  extends: ['@commitlint/config-conventional'],
   rules: {
+    // 在这里添加或覆盖提交信息规范的验证规则
     'type-enum': [2, 'always', types],
-    'scope-enum': getScopesRule,
   },
 };
