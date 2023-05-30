@@ -1,0 +1,25 @@
+.idea/*
+*.Ds_Store
+node_modules/*
+dist/*
+.vscode/
+.node-version
+deploy-newhuan.sh
+package-lock.json
+yarn.lock
+yarn-error.log
+.proxytarget
+proxy.target.json
+**/src/environment.js
+.yalc/
+yalc.lock
+**/src/index.prod.html
+
+# cache files
+*.swp
+*.swo
+**/cdn/cdnConfig.js
+.eslintcache
+
+# test coverage
+coverage
