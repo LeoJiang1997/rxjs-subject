@@ -3,6 +3,19 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "rxjs": "^7.5.5"
+    "@commitlint/cli": "^17.6.3",
+    "@commitlint/config-angular": "^17.6.3",
+    "commitizen": "^4.3.0",
+    "rxjs": "^7.5.5",
+    "standard-version": "^9.5.0"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^8.0.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
